@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+    <header> 
+        <h2>Todo App</h2>
+    </header>
+    <section>
+        <ul id="todo-list" class="todo-list">
+            <li>
+                <span id="add-todo">+ &nbsp;Add new Todo</span>
+                <form id="new-todo">
+                    <input 
+                        type="text" 
+                        name="title" 
+                        value=""
+                        required
+                        placeholder="Enter new todo"
+                    />
+                </form>
+                
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <cite>Todo App built using jQuery</cite>
+    </footer>
+</body>
+</html>
